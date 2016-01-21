@@ -3,4 +3,8 @@
 3. Download and install zotero for bibliography management (username: sandipandas, pass: Napidnas8)
 4. Setup git repo (username: s-a-n-d-y)
 5. Started reading the papers and literature review
-6. Install Github for windows
+6. Install Github for windows (But it is very slow)
+7. Tortoise git can manage multiple files
+8. Go to downloaded git repository (or make one)
+9. Right click -- Tortoisegit -- Settings -- Git (Here you can update the settings for your paticular project)
+10. And you can use multiple git repositories if you want
