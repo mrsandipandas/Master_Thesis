@@ -1,0 +1,6 @@
+1. Created initial timeplan and update it
+2. Latex template creation
+3. Download and install zotero for bibliography management (username: sandipandas, pass: Napidnas8)
+4. Setup git repo (username: s-a-n-d-y)
+5. Started reading the papers and literature review
+6. Install Github for windows

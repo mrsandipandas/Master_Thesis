@@ -1,0 +1,95 @@
+<HTML>
+<HEAD>
+<TITLE>ADIABAT: Animation of adiabatic processes</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<H1>ADIABAT</H1>
+<H1>Animation of adiabatic processes</H1>
+
+This animation shows a gas inside a box.  The collisions are
+elastic.  The gas can be adiabatically compressed or expanded by
+slowly moving one of the walls of the box.  Free expansion can also be
+observed by suddenly moving a wall.<P>
+
+The total kinetic energy of the molecules is displayed at the top
+of the screen.  When the gas is adiabatically compressed, the kinetic
+energy increases.  When the gas is adiabatically expanded, the kinetic
+energy decreases.  Under free expansion, the kinetic energy remains
+constant.  The changes in kinetic energy are caused by collisions
+with a moving wall.<P>
+
+Note that when the gas is first compressed and then expanded, the
+kinetic energy does not return to its original value.  This happens
+because the speed of the wall's movement is a sizable fraction
+of the average speed of the molecules, and the process is therefore
+not "quasi-static".  If the speed of the wall were much smaller,
+the kinetic energy would return to its original value, but then,
+this animation would take much longer.<P>
+
+<H1>OpenGL Version</H1>
+
+The program recognizes the following commands.  The command may be
+executed by either clicking the button with the mouse (first column
+below) or by pressing a key (second column below).
+The mouse buttons may be removed from the screen by pressing the <b>M</b>
+key.  Press <b>M</b> again to restore buttons.<p>
+The program recognizes the following commands:
+
+<TABLE>
+<TR VALIGN=TOP><TD><B>compress</B></TD><TD><B>C</B></TD><TD>
+Compression.  The left wall moves to the right until you press
+<B>S</B> or until the box has reached its minimum size.
+</TD>
+
+<TR VALIGN=TOP><TD><B>expand</B></TD><TD><B>E</B></TD><TD>
+Expansion.  The left wall moves to the left until you press
+<B>S</B> or until the box has reached its maximum size.
+</TD>
+
+<TR VALIGN=TOP><TD><B>free</B></TD><TD><B>F</B></TD><TD>
+Free expansion.  The left wall suddenly moves to the left so that
+the box has its maximum size.
+</TD>
+
+<TR VALIGN=TOP><TD><B>stop</B></TD><TD><B>S</B></TD><TD>
+Stop compression or expansion.  Wall stops moving.</TD>
+
+<TR VALIGN=TOP><TD><B>quit</B></TD><TD><B>Q</B></TD><TD>
+Quit program.</TD>
+
+</TABLE>
+
+<H1>DOS Version</H1>
+
+The program recognizes the following commands:
+
+<TABLE>
+<TR VALIGN=TOP><TD><B>C</B></TD><TD>
+Compression.  The left wall moves to the right until you press
+<B>S</B> or until the box has reached its minimum size.
+</TD>
+
+<TR VALIGN=TOP><TD><B>E</B></TD><TD>
+Expansion.  The left wall moves to the left until you press
+<B>S</B> or until the box has reached its maximum size.
+</TD>
+
+<TR VALIGN=TOP><TD><B>F</B></TD><TD>
+Free expansion.  The left wall suddenly moves to the left so that
+the box has its maximum size.
+</TD>
+
+<TR VALIGN=TOP><TD><B>S</B></TD><TD>
+Stop compression or expansion.  Wall stops moving.</TD>
+
+<TR VALIGN=TOP><TD><B>Q</B></TD><TD>
+Quit program.</TD>
+
+<TR VALIGN=TOP><TD><B>?</B></TD><TD>
+Help.  These commands are listed.</TD>
+
+</TABLE>
+
+</BODY>
+</HTML>

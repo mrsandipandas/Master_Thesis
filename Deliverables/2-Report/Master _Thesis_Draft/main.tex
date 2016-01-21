@@ -1,0 +1,70 @@
+% twoside library is for both side control of document (in case you need blank paper)
+%\documentclass[12pt,a4paper,twoside,openright,hidelinks, abstractoff,titlepage,final,parskip=half*,BCOR10mm]{report}
+
+%Used scrreprt in place of report to achieve customized "chapter"
+\documentclass[12pt,a4paper,openright,hidelinks,titlepage,final]{scrreprt}
+
+% Cover page library
+\usepackage[utf8]{inputenc}
+\usepackage[eng,exjobb]{./Cover/KTHEEtitlepage}
+
+% Common libraries
+\usepackage{amsmath,booktabs,color,graphicx,float,listings,lmodern,microtype,multirow,pifont,rotating,siunitx,subfigure,subfiles,tabularx,xcolor}
+\usepackage[intoc]{nomencl}
+\usepackage[automark, komastyle, headsepline]{scrpage2}
+\usepackage[pdfpagelabels]{hyperref}
+
+%Includes "References" in the table of contents, add "numbib" to add "Chapter" in Bibliography section
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage[english]{babel}
+\usepackage[square,numbers]{natbib}
+
+%%%%%%%%%%%%%%%%%%%%%%%Customized Chapter Title%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\renewcommand*{\chapterformat}{
+	\begingroup
+	\setlength{\unitlength}{1mm}%
+		\begin{picture}(20,30)(0,5)%
+		
+		%----  cmd \line(1,0) is use to draw straight horizontalline----
+		\put(20,15){\line(1,0){\dimexpr
+			\textwidth-20\unitlength\relax\@gobble}}
+		\put(0,0){\makebox(20,20)[r]{
+			\fontsize{28\unitlength}{28\unitlength}\selectfont\thechapter
+			\kern-.04em}}
+			
+		%----- for additional chapter label showup above the line
+		\put(20,15){\makebox(\dimexpr
+			\textwidth-20\unitlength\relax\@gobble,\ht\strutbox\@gobble)[l]{
+			\normalsize\color{black}\chapapp~\thechapter\autodot}}
+		\end{picture} 
+	\endgroup
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+    \pagenumbering{roman}	
+	% These introductory pages have a roman numbering	
+	\subfile{Cover/KTHEEtitlepage_ex_exjobb}
+	\subfile{Title/title}	
+	\subfile{Abstract/abstract}    
+    % Set counter so that table of content page numbering updated correctly
+    \setcounter{page}{4}
+    \tableofcontents
+    \newpage
+    
+    \pagenumbering{arabic} 
+    % These introductory pages have a arabic numeral numbering	
+    \subfile{Ch1-Introduction/ch1}
+    \subfile{Ch2-State_of_the_art/ch2}
+	\subfile{Ch3-Design_and_simulation/ch3}
+	\subfile{Ch4-Fabrication/ch4}
+	\subfile{Ch5-Results/ch5}
+	\subfile{Ch6-Conclusion/ch6}
+	\subfile{Ch7-Limitations_and_future_work/ch7}
+	\subfile{Acknowledgement/ack}	
+	
+	%References and bibliography
+	\bibliographystyle{ieeetr}
+	\bibliography{./Bibliography/ref}   
+\end{document}

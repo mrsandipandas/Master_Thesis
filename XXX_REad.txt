@@ -1,0 +1,18 @@
+
+Gent university course: Microphotonica - Ch 2, 3, 5, and 7
+
+Optics book: BYUOptics is a friendly book
+
+Silicon waveguide concept: Silicon-Photonics-Introduction-Graham-Reed.pdf
+
+EM IIT Lecture:
+---------------
+https://www.youtube.com/watch?v=pGdr9WLto4A&list=PL1CE5B4FFFA997E5D&index=1
+
+Electrodynamics:
+----------------
+https://www.youtube.com/watch?v=6NOIqhxvZ74&list=PLDDEED00333C1C30E
+
+MIT Course EM:
+--------------
+https://www.youtube.com/watch?v=uozXTXCQv6Q&list=PLERGeJGfknBR3pXCPlV3bgb_qHCSNOdBf

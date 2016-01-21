@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Diffraction Demonstration</title>
+</head>
+
+<body>
+
+<applet id="MultiDiffractionBox" name="MultiDiffractionBox" 
+ width="800" height="600"
+ archive="solidstate.jar"
+ code="edu.byu.solidstate.demo3.MultiDiffractionBoxMain">
+ 
+ <!-- Optional parameters -->
+ <param name="background-color" value="#FFFFFF" />
+ <param name="incoming-wave-color" value="#00FF00" />
+ <param name="outgoing-wave-color" value="#0000FF" />
+ <param name="crosshair-color" value="#FF0000" />
+ <param name="box-color" value="#008080" />
+
+ <param name="wave-length" value="0.1" />
+ <param name="wave-amplitude" value="0.15" />
+ 
+ <param name="cells-per-side" value="3" />
+ <param name="box-scale-in-pixels" value="150" />
+ <param name="angle-slider-degrees-per-pixel" value="0.1" />
+ 
+ <!-- Antialiasing is a graphics trade-off:
+ 	"true" makes the sinusoid appear smoother, but animation may be choppy
+ 	"false" makes the sinusoid rougher, but animation is smoother
+ -->
+ <param name="antialias" value="false" />
+
+</applet>
+
+</body>
+</html>

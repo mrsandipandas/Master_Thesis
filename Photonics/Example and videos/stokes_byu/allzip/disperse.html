@@ -1,0 +1,58 @@
+<HTML>
+<HEAD>
+<TITLE>DISPERSE: Animation of wave dispersion</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<H1>DISPERSE</H1>
+<H1>Animation of Wave Dispersion</H1>
+
+This animation shows a traveling pulse of light.  In air, the wavelength
+of the light is 800 nm, and the envelope of the pulse is Gaussian with a
+half-width at half-maximum equal to 1.5 um (micrometers).  The time
+duration of the pulse as it passes is 5 fs.  The width of the screen is
+20 um.  A number in the upper lefthand corner of the screen shows the
+position of the pulse (the center of its Gaussian envelope).  When the
+animation begins, the pulse is frozen in time 50 um from the surface of
+a piece of glass.  The index of refraction of the glass is given by
+n=n0+n1(w/w0), where w is the angular frequency of the wave, w0 is
+the angular frequency of a 800-nm wave, and n0=1.4948 is the index of
+refraction of the glass at 800 nm.  The value of n1 in glass is
+0.016.<P>
+
+The program recognizes the following commands:
+
+<TABLE> <TR VALIGN=TOP><TD><B>S</B></TD><TD> Slow.  The wave starts to
+move at the speed of light.  We follow along with the wave, viewing it
+in slow motion.  The blue background represents air, and the red
+background represents glass.  As the wave enters the glass, it slows
+down and becomes narrower (at first).</TD>
+
+<TR VALIGN=TOP><TD><B>F</B></TD><TD>
+Fast.  View the wave in fast motion.  Now we can see the difference
+between the phase velocity (the velocity of the waves inside the
+envelope) and the group velocity (the velocity of the envelope).
+We also see that the pulse broadens with time, the long-wavelength
+component of the pulse moving faster than the short-wavelength
+component of the pulse.  Note that the wavelength of the wave
+at the front of the pulse becomes noticeably longer than the wavelength
+of the wave at the rear of the pulse.</TD>
+
+<TR VALIGN=TOP><TD><B>R</B></TD><TD>
+Restart.  Put the pulse back in air 50 um from the glass.  It sits
+there until either an <B>S</B> or <B>F</B> is pressed.</TD>
+
+<TR VALIGN=TOP><TD><B>P</B></TD><TD>
+Pause.  Stop the animation.  Press any key to resume animation.</TD>
+
+<TR VALIGN=TOP><TD><B>Q</B></TD><TD>
+Quit program.</TD>
+
+<TR VALIGN=TOP><TD><B>?</B></TD><TD>
+Help.  These commands are listed.</TD>
+
+</TABLE>
+
+</BODY>
+</HTML>

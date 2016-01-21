@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+<TITLE>VIOLIN:  Harmonics in musical tones</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<H1>VIOLIN</H1>
+<H1>Harmonics in musical tones</H1>
+
+This demonstration analyzes the harmonics of a tone produced by a
+violin and by a trumpet.<P>
+
+A recording of a single violin tone is analyzed.  The pitch is 500
+Hz which is approximately B above concert A.  A recording of a single
+trumpet tone of the same pitch is also analyzed.
+
+
+The program recognizes the following commands.<p>
+
+<TABLE>
+<TR VALIGN=TOP><TD><B>violin</B></TD><TD>
+Select the violin.</TD>
+
+<TR VALIGN=TOP><TD><B>trumpet</B></TD><TD>
+Select the trumpet.</TD>
+
+<TR VALIGN=TOP><TD><B>play</B></TD><TD>
+Play the recorded musical tone.</TD>
+
+<TR VALIGN=TOP><TD><B>1st_harmonic</B></TD><TD>
+Play the first harmonic of the recorded musical tone. (The overtones
+were stripped from the tone, leaving only the first harmonic.
+Note that the violin and trumpet sound the same without the
+harmonics.  It's the harmonics that cause them to sound differently.</TD>
+
+<TR VALIGN=TOP><TD><B>wave</B></TD><TD>
+Display a segment of the sound wave from the tone.  Note that the wave form
+repeats every 2 ms.  This is the period of the first harmonic of the wave.
+The frequency f=1/(2ms)=500Hz of the first harmonic is called the pitch
+of the tone.  Note that the wave for the trumpet contains fewer
+high-frequency oscillations than that for the violin.  The high-harmonic
+content of the trumpet tone is not as intense as that of the violin tone.</TD>
+
+<TR VALIGN=TOP><TD><B>spectrum</B></TD><TD>
+Display the spectrum of the tone.  Peaks occur at multiples of 500 Hz and
+arise from the harmonics contained in the tone.  Note that the vertical
+scale is dB which is logarithmic in intensity.  The noise is about 60 dB
+below the tone which is about a factor of 100,000 in intensity.  Also note
+that the scale for the trumpet is extended to -10 dB.  The higher harmonics
+have less intensity in the trumpet tone than in the violin tone.</TD>
+
+<TR VALIGN=TOP><TD><B>harmonics</B></TD><TD>
+Display the wave and play the tone of each harmonic in the tone.
+Press <b>next</b> to display the next harmonic and add it to the tone.
+Press <b>add</b> to add it to the wave.  After 16 harmonics have been added
+together, we obtain the wave for the complete tone.  (Higher harmonics
+have negligible contribution to the wave form.)
+</TD>
+
+</table>
+
+</BODY>
+</HTML>

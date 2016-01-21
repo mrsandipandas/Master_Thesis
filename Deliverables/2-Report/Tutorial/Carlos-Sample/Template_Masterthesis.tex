@@ -1,0 +1,113 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage{graphicx,float,lscape,booktabs,siunitx}
+\usepackage{pifont}
+\setlength{\heavyrulewidth}{0.1em}
+\newcommand{\otoprule}{\midrule[\heavyrulewidth]}
+\newcommand{\tick}{\ding{51}}
+\newcommand{\cross}{\ding{53}}
+\widowpenalties 1 10000
+\raggedbottom
+
+\begin{document}
+\pagenumbering{roman}
+\begin{titlepage}
+\begin{center}
+%\includegraphics[width=0.2\textwidth]{figures/cover.jpg}\\[3.5cm] %in case you want a kth logo
+{ \huge \bfseries TITLE}\\[2.5cm]
+{\large NAME}\\[7cm]
+{\large \today}
+\end{center}
+\end{titlepage}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
+\begin{abstract}
+\thispagestyle{plain}
+\setcounter{page}{3}
+Abstract\par
+\end{abstract}
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\setcounter{page}{4}
+\tableofcontents
+\newpage
+\thispagestyle{empty}
+\mbox{}
+%% INTRO %%
+\pagenumbering{arabic}
+\setcounter{page}{0}
+
+%Hierarchy of sections in latex {report document}
+\chapter{Chapter}
+\section{Section}
+\subsection{subsection}
+\subsubsection{subsubsection}
+
+
+\chapter{Introduction}
+
+\section{Motivation}
+
+Text
+%double enter opens paragraph
+Text
+
+
+\section{Importance of protein secretion of cells in the human body}
+
+It has been reported that defects in protein secretion in specific cells lead to diabetes \cite{abe11:531}, Alzheimer's \cite{tampellini11:15384}, Parkinson's \cite{luk12:949}, and many other diseases in different organs, including heart and kidney \cite{doroudgar11:207, jena05:307}.%the citations come from a .bib document exported from citeulike, the names are the names you write in citeulike to define the references
+
+%take out the comments '%' from the next paragraph, add a figure named example in a folder named figures in the same folder as your .tex, and compile
+%\begin{figure}
+%   \centering
+%   \includegraphics[width=1\columnwidth]{figures/example} %folder named figures in the same folder as the .tex document
+%   \caption{The conventional mechanism of protein secretion of eukaryotic cells. The protein is created in the ribosome, and is secreted via the rough endoplasmatic reticulum and Golgi apparatus. Finally, it is transported to the membrane by secretion vesicles and gets secreted through a fusion pore. Image from \cite{secretion}.}
+%   \label{fig:secretion}
+%\end{figure}
+
+\section{Silicon photonic biosensors}
+\label{section:biosens} %labelling for referencing later, just a \ref{section:biosens} in this case
+
+
+% STATE OF THE ART
+\chapter{State of the Art}
+\label{chap:stateart}
+
+\section{Commonly used methods for quantification of protein secretion}
+
+When light is confined in a waveguide by a refractive index step, part of it propagates outside the waveguide core. In this case, the refractive index of the waveguide is a weighted average of the index of the constituent materials. This new refractive index is called \emph{effective refractive index} ($n_\text{eff}$) \cite{Gylfason10}. Thus the wavelength of light confined in a waveguide can be defined as:
+
+
+\begin{equation}
+   \lambda=\frac{\lambda_0}{n_\text{eff}},
+   \label{eq:wave}
+\end{equation}
+With $\lambda_0$ the wavelength of light in free space.
+
+
+\begin{equation}
+   S_\text{vol}=\frac{\partial n_\text{eff}}{\partial n_\text{s}}\frac{\lambda_i}{n_\text{eff}}~~~\text{[nm/RIU]}, %'~' makesa space shift between the both words it connects, in a way that doesnt separate them on different lines
+   \label{eq:vol}
+\end{equation}
+With $\lambda_i$ the interference wavelength, and $n_s$ the refractive index of the solution target of sensing.\par
+%%%%% TABLE %%%%%
+\begin{center}
+\begin{table}
+    \caption{Reported rates of protein secretion from pituitary cells in fg/cell/s. Abbreviations of the biomolecules used as stimuli that appear on the table: TRH=Thyrotropin-Releasing Hormone, GnRH=Gonadotropin-Releasing Hormone, SP=Surfactant Protein, and FSK=Forskolin.}
+    \begin{tabular}{ lcccp{4cm}} \toprule %here you define the number of columns (no need for #rows), l=aligned left, c=aligned center, p{dimension}=width of it
+    Protein & Average rate & Maximum rate & Reference & Comments \\ \midrule
+    $\alpha-subunit$ & 0.2 & 8 & \cite{oguchi96:141} & 10\% cells released protein. Increase in the rate by applying TRH.\\ 
+    PRL & 0.009 & 0.4 & \cite{oguchi96:141} & 24\% cells secreted protein. Increase in the rate by applying TRH or $\alpha-subunit$. \\ 
+    LH & 0.004 & 0.12 & \cite{hidalgodiaz98:678} & Not quantified ratio of secreting cells. Increased rates by applying GnRH or SP. \\ 
+    SP & 0.002 & 0.04 & \cite{arita93:2682} & 0.5\% cells secreted protein. Most accurate paper. Work with times and number of secreting cells. \\ 
+    GH & 0.002 & 0.05 & \cite{falcon03:4648} & Not quantified ratio of secreting cells. Increase with FSK and melatonin. \\ \bottomrule
+    \end{tabular}
+    \label{tab:ratestable}
+\end{table}
+\end{center}
+
+
+\end{document}
