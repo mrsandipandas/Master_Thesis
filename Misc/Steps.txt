@@ -9,3 +9,5 @@
 9. Right click -- Tortoisegit -- Settings -- Git (Here you can update the settings for your paticular project)
 10. And you can use multiple git repositories if you want
 11. Steps to save git credentials: http://stackoverflow.com/questions/14000173/tortoisegit-save-user-authentication-credentials
+12. Printer access: https://serverix.ee.kth.se/wiki/pages/o6D707Y/Konica_Bizhub_C454_color_printer_.html
+13. MST Wiki: https://serverix.ee.kth.se/auth?send_token=no&redirect=https://serverix.ee.kth.se/wiki/projects/mst/MST.html
