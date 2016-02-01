@@ -20,3 +20,15 @@ https://www.youtube.com/watch?v=uozXTXCQv6Q&list=PLERGeJGfknBR3pXCPlV3bgb_qHCSNO
 Theory of Electrodynamics:
 --------------------------
 https://www.youtube.com/watch?v=AWI70HXrbG0&list=PL2D59C6AF8D76FA90&index=10
+
+LASER and optics:
+-----------------
+https://www.youtube.com/watch?v=rgivGZqFcfY
+
+Light guidance through waveguides: (Very very relevant: Prof Ajaoy Ghatak)
+--------------------------------------------------------------------------
+https://www.youtube.com/watch?v=nNztWaFxqGg
+
+VLSI and MOSFETs (For fabrication)
+----------------------------------
+https://www.youtube.com/watch?v=_j-YEdsVV74

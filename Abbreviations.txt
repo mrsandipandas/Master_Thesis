@@ -1,0 +1,15 @@
+C-band (4 to 8 GHz) 
+
+PER = polarization extinction range
+
+PR = Polarization rotator (which mainly change the PER and, to some extent, the polarization phase)
+
+TPPS = tunable polarization phase shifters 
+
+SOP = State of polarization
+
+RS = rotator segments@
+
+PIC = photonic integrated circuits
+
+OEIC = optoelectronic integrated circuit
