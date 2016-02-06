@@ -50,3 +50,4 @@ How to make glossary work:
 1. Install perl.exe(x86) apart form Texstudio and Miktex
 2. Download xindy package
 3. http://tex.stackexchange.com/questions/156270/has-anyone-managed-to-use-glossaries-with-texstudio-on-windows
+Combine glossary and acronym: http://tex.stackexchange.com/questions/8946/how-to-combine-acronym-and-glossary
