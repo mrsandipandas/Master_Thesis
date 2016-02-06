@@ -1,6 +1,6 @@
 C-band (4 to 8 GHz) 
 
-PER = polarization extinction range
+PER = polarization extinction range(ratio)
 
 PR = Polarization rotator (which mainly change the PER and, to some extent, the polarization phase)
 

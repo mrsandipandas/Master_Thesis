@@ -32,3 +32,21 @@ https://www.youtube.com/watch?v=nNztWaFxqGg
 VLSI and MOSFETs (For fabrication)
 ----------------------------------
 https://www.youtube.com/watch?v=_j-YEdsVV74
+
+Some very good videos (for quantum physics)
+-------------------------------------------
+
+http://toutestquantique.fr/pompe-sonde/
+https://www.youtube.com/watch?v=K64Tv2mK5h4&index=1&list=PL_wN0FeVwhX6OZzCaKsj-5TXFy-DAAUWs
+
+Nanoelectronics:
+----------------
+
+https://www.youtube.com/watch?v=tW1-fSRiAdc&list=PLJFRtYrlETjXSm5PnW6KkOaP0M1C2LVrI
+https://nanohub.org/
+
+How to make glossary work:
+--------------------------
+1. Install perl.exe(x86) apart form Texstudio and Miktex
+2. Download xindy package
+3. http://tex.stackexchange.com/questions/156270/has-anyone-managed-to-use-glossaries-with-texstudio-on-windows
