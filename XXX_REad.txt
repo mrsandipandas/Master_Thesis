@@ -51,3 +51,7 @@ How to make glossary work:
 2. Download xindy package
 3. http://tex.stackexchange.com/questions/156270/has-anyone-managed-to-use-glossaries-with-texstudio-on-windows
 Combine glossary and acronym: http://tex.stackexchange.com/questions/8946/how-to-combine-acronym-and-glossary
+
+http://www.ee.washington.edu/people/faculty/lin_lih/EE539Sp08/schedule.html
+
+http://web.mit.edu/6.013_book/www/chapter13/13.e.html
