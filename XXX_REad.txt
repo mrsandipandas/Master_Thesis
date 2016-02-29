@@ -45,13 +45,6 @@ Nanoelectronics:
 https://www.youtube.com/watch?v=tW1-fSRiAdc&list=PLJFRtYrlETjXSm5PnW6KkOaP0M1C2LVrI
 https://nanohub.org/
 
-How to make glossary work:
---------------------------
-1. Install perl.exe(x86) apart form Texstudio and Miktex
-2. Download xindy package (http://www.fys.ku.dk/~tlinnet/xindy-win.exe)
-3. http://tex.stackexchange.com/questions/156270/has-anyone-managed-to-use-glossaries-with-texstudio-on-windows
-Combine glossary and acronym: http://tex.stackexchange.com/questions/8946/how-to-combine-acronym-and-glossary
-
 http://www.ee.washington.edu/people/faculty/lin_lih/EE539Sp08/schedule.html
 
 http://web.mit.edu/6.013_book/www/chapter13/13.e.html
