@@ -1,0 +1,11 @@
+Impedence cytometry
+Conventional DMF architecture - Droplets move by applying voltage between 2 electroes - droplets move based on angle change - Good mixing - fast kinetics - hundreds of trnasisitors can be used to do the same thing - individual transistor array - to move the droplets (same anaogy of mobile phone screens)
+
+Diigital micro fludic with TFT
+
+TFT poly-Si nano-ribbon Sensors
+
+Longitude prize
+
+http://www.wikiwand.com/en/Polarization_(waves)
+
